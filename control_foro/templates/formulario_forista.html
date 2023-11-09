@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% load static %}
+
+
+
+{% block titulo %}
+<title>Creacion Forista | Pre entrega 3 | Cesar Peraza</title>
+{% endblock titulo %}
+
+
+{% block contenido %}
+<header id="foro" class="header">
+  <div class="overlay"></div>
+  <div id="header-carousel" class="carousel slide carousel-fade" data-ride="carousel"> 
+    <h1 style="color:#FF0000;">
+      Crear Forista:
+  </h1>
+  </header>
+
+
+    <h2 class="text-success">
+    <form method="post">
+      {% csrf_token %}
+      {{ formulario.as_p }}
+      <input class="btn btn-success" type="submit" value="Guardar" />
+    </form>
+    <br>
+    <a class="btn btn-warning" href="{% url 'home' %}">Volver al inicio</a>
+  </h2>
+</div>
+{% endblock contenido %}
