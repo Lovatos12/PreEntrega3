@@ -13,7 +13,7 @@ class CrearForo(models.Model):
     contenido=models.CharField(max_length=1500,blank=False,verbose_name="Contenido del Foro")
 
     def __str__(self):
-        return f"{self.tema} ({self.nombre})"
+        return f"{self.tema} ,{self.nombre}"
 
 
 class Forista(models.Model):

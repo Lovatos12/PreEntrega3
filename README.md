@@ -1,0 +1,4 @@
+Repositorio que contiene la preentrega 3 del curso de Python La pagina web consiste en un creador de foros. La misma almacena en 2 modelos (Crear foro,Crear Forista) Y cuenta con 4 paginas, http://127.0.0.1:8000/inicio/ donde se muestra la pagina de inicio y proporciona acceso a las demas vistas con enlaces en la parte superior. http://127.0.0.1:8000/foros/ muestra la lsita de foros publicados, asi como tambien la opcion para crear foro, ver todos los foros y buscar foros. http://127.0.0.1:8000/crear_foro/ donde podremos crear los foros. http://127.0.0.1:8000/porleer/crear_forista/ aqui se podra ingresar los datos de los foristas para ser guardados en la base de datos.
+
+SuperUsuario= Admin
+Clave= 12345678
